@@ -10,6 +10,10 @@
   background-color: #d9534f; /* Warm romantic red */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
+.envlope-wrapper{
+  position: relative;
+  top: 80px;
+}
 
 .front {
   position: absolute;
