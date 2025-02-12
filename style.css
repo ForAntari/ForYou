@@ -243,6 +243,8 @@ body {
 
 .reset {
   text-align: center;
+  position: relative;
+  top: 80px;
 }
 
 .reset button {
