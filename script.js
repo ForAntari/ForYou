@@ -20,3 +20,11 @@ $(document).ready(function () {
     envelope.addClass("close").removeClass("open");
   }
 });
+window.onload = function() {
+    document.body.style.transform = "scale(1.5)";
+    document.body.style.transformOrigin = "center center";
+    document.body.style.display = "flex";
+    document.body.style.justifyContent = "center";
+    document.body.style.alignItems = "center";
+    document.body.style.overflow = "hidden";
+};
