@@ -20,11 +20,6 @@
   height: 0;
   z-index: 3;
 }
-body {
-    transform: scale(1.5);  /* زوم روی 150% */
-    transform-origin: center center; /* زوم از مرکز */
-    align-items: center;
-}
 
 .flap {
   border-left: 140px solid transparent;
