@@ -20,6 +20,13 @@
   height: 0;
   z-index: 3;
 }
+body {
+    transform: scale(1.5);  /* زوم روی 150% */
+    transform-origin: center center; /* زوم از مرکز */
+    width: 66.67vw; /* جلوگیری از اسکرول افقی */
+    height: 66.67vh; /* جلوگیری از اسکرول عمودی */
+    align-items: center;
+}
 
 .flap {
   border-left: 140px solid transparent;
