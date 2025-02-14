@@ -237,7 +237,8 @@ body {
   background-color: #f0e6f6;
   display: flex;
   justify-content: center;
-  padding-top: 80px;
+  padding-top: 180px;
+  padding-right: 70px;
 }
 
 .envlope-wrapper {
@@ -250,7 +251,7 @@ body {
   justify-content: center;
   position: relative;
   top: 650px;
-  right: 230px;
+  right: 238px;
 }
 
 .reset button {
