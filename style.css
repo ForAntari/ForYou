@@ -1,12 +1,13 @@
 #envelope {
   position: relative;
-  width: 280px;
-  height: 180px;
+  width: 560px;
+  height: 360px;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   margin-left: auto;
   margin-right: auto;
   top: 150px;
+  left: 250px;
   background-color: #d9534f; /* Warm romantic red */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
@@ -14,6 +15,7 @@
   position: relative;
   top: 80px;
 }
+
 .front {
   position: absolute;
   width: 0;
@@ -22,21 +24,21 @@
 }
 
 .flap {
-  border-left: 140px solid transparent;
-  border-right: 140px solid transparent;
-  border-bottom: 82px solid transparent;
+  border-left: 280px solid transparent;
+  border-right: 280px solid transparent;
+  border-bottom: 164px solid transparent;
   /* a little smaller */
-  border-top: 98px solid #d9534f; /* Same romantic red */
+  border-top: 200px solid #d9534f; /* Same romantic red */
   /* a little larger */
   transform-origin: top;
   pointer-events: none;
 }
 
 .pocket {
-  border-left: 140px solid #f5a3a2; /* Soft pinkish red for the pocket */
-  border-right: 140px solid #f5a3a2;
-  border-bottom: 90px solid #ff6f61; /* Lighter romantic red */
-  border-top: 90px solid transparent;
+  border-left: 280px solid #f5a3a2; /* Soft pinkish red for the pocket */
+  border-right: 280px solid #f5a3a2;
+  border-bottom: 190px solid #ff6f61; /* Lighter romantic red */
+  border-top: 190px solid transparent;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
 }
@@ -76,24 +78,24 @@
   font-size: 0.5rem;
   width: 20%;
   height: 7%;
-  font-size: 0.7rem;
+  font-size: 1.3rem;
 }
 
 .words.line2 {
   top: 30%;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 2.1rem;
 }
 
 .words.line3 {
   top: 50%;
-  font-size: 1.1rem;
+  font-size: 2.1rem;
   text-align: center;
 }
 
 .words.line4 {
   top: 70%;
-  font-size: 1.1rem;
+  font-size: 2.1rem;
   text-align: center;
 }
 
@@ -116,14 +118,14 @@
 }
 
 .open .letter {
-  transform: translateY(-100px);
+  transform: translateY(-160px);
   transition: transform 0.4s 0.6s ease, z-index 0.6s;
   z-index: 2;
 }
 
 .hearts {
   position: absolute;
-  top: 90px;
+  top: 170px;
   left: 0;
   right: 0;
   z-index: 2;
@@ -165,7 +167,7 @@
 
 .a1 {
   left: 20%;
-  transform: scale(0.6);
+  transform: scale(1.2);
   opacity: 1;
   -webkit-animation: slideUp 4s linear 1, sideSway 2s ease-in-out 4 alternate;
   -moz-animation: slideUp 4s linear 1, sideSway 2s ease-in-out 4 alternate;
@@ -177,7 +179,7 @@
 
 .a2 {
   left: 55%;
-  transform: scale(1);
+  transform: scale(1.5);
   opacity: 1;
   -webkit-animation: slideUp 5s linear 1, sideSway 4s ease-in-out 2 alternate;
   -moz-animation: slideUp 5s linear 1, sideSway 4s ease-in-out 2 alternate;
@@ -188,8 +190,8 @@
 }
 
 .a3 {
-  left: 10%;
-  transform: scale(0.8);
+  left: 40%;
+  transform: scale(1.6);
   opacity: 1;
   -webkit-animation: slideUp 7s linear 1, sideSway 2s ease-in-out 6 alternate;
   -moz-animation: slideUp 7s linear 1, sideSway 2s ease-in-out 6 alternate;
@@ -204,7 +206,7 @@
     top: 0;
   }
   100% {
-    top: -600px;
+    top: -900px;
   }
 }
 @keyframes slideUp {
@@ -212,7 +214,7 @@
     top: 0;
   }
   100% {
-    top: -600px;
+    top: -900px;
   }
 }
 @-webkit-keyframes sideSway {
@@ -232,22 +234,27 @@
   }
 }
 body {
-  background-color: #f0e6f6; /* Soft lavender for a romantic, dreamy feel */
-  padding-top: 100px;
+  background-color: #f0e6f6;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
 }
 
 .envlope-wrapper {
-  height: 380px;
+  height: 80px;
 }
 
 .reset {
   text-align: center;
+  display: flex;
+  justify-content: center;
   position: relative;
-  top: 80px;
+  top: 650px;
+  right: 230px;
 }
 
 .reset button {
-  font-weight: 800;
+  font-weight: 1000;
   font-style: normal;
   transition: all 0.1s linear;
   -webkit-appearance: none;
@@ -256,13 +263,13 @@ body {
   border-radius: 4px;
   color: #d9534f;
   display: inline-block;
-  font-size: 14px;
+  font-size: 20px;
   text-transform: uppercase;
   margin: 5px;
-  padding: 10px;
-  line-height: 1em;
+  padding: 6px 10px;
+  line-height: 3em;
   text-decoration: none;
-  min-width: 120px;
+  min-width: 200px;
   cursor: pointer;
 }
 
